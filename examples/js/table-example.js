@@ -17,13 +17,16 @@
 
       $scope.data = [{
         'id': 1,
-        'title': 'node 1'
+        'title': 'node 1',
+        'nodes':[{'id': 1,
+        'title': 'node 1.1'}]
       }, {
         'id': 2,
-        'title': 'node 2'
+        'title': 'node 2',
+'nodes':[]
       }, {
         'id': 3,
-        'title': 'node 3'
+        'title': 'node 3','nodes':[]
       }];
     }]);
 
